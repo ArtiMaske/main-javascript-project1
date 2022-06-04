@@ -59,7 +59,7 @@ function playRound(playerSelection, computerSelection) {
     }
   } else {
     if (playerSelection.toLowerCase() != "rock" || "paper" || "scissors") {
-      console.log(` This is not a choice.  Choose ${"Rock"}, ${"Paper"} or ${"Scissors"}` );
+      console.log( `This is not a choice.  Choose ${"Rock"}, ${"Paper"} or ${"Scissors"}` );
     }
   }
 }
