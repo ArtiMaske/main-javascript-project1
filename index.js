@@ -59,17 +59,16 @@ function playRound(playerSelection, computerSelection) {
     }
   } else {
     if (playerSelection.toLowerCase() != "rock" || "paper" || "scissors") {
-      console.log( `This is not a choice.  Choose ${"Rock"}, ${"Paper"} or ${"Scissors"}` );
+      console.log(`This is not a choice.Choose ${"Rock"}, ${"Paper"} or ${"Scissors"}`);
     }
   }
 }
-
 function game() {
   let playerWins = 0;
   let computerWins = 0;
   let playRoundReturn = 0;
 
-  for (i = 0; i < 5;i++) {
+  for (i = 0; i <=5 ; i++) {
     playRoundReturn = playRound(playerSelection(), computerSelection());
     if ( playRoundReturn === true ) {
       playerWins++;
